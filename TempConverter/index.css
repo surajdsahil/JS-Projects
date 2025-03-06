@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aquamarine;
+}
+.container{
+    box-shadow: 0 0 10px 0 rgba(219, 223, 209, 0.1);
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+}
+.header{
+    margin-bottom: 10px ;
+    background-color: black;
+    color: white;
+    font-size: 1 rem;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+label{
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+.input3{
+    margin-bottom: 10px;
+}
